@@ -25,20 +25,16 @@ def main():
 
         paciente = Paciente(nome, idade, pcd)
 
-        # abre o menu
         servico = menu.mostrar_menu()
 
-        # verifica emergência
         alerta = triagem.avaliar(servico)
 
         if alerta:
             print("\n⚠️", alerta)
             continue
 
-        # classifica prioridade
         prioridade = classificador.classificar(paciente)
 
-        # gera senha
         senha = gerador.gerar(prioridade)
 
         print("\n=== TICKET ===")
