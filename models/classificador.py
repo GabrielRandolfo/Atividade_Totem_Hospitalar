@@ -1,13 +1,7 @@
 from models.paciente import Paciente
 
 class Classificador:
-    """
-    Decide se um Paciente é 'Prioritário' ou 'Normal'
-    Regra sugerida (comum em triagem):
-      - Prioritário se pcd == True
-      - OU se idade >= 60
-      - Caso contrário, Normal
-    """
+
 
     IDADE_PRIORITARIA = 60
 
