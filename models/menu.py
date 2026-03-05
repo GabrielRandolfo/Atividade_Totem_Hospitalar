@@ -1,11 +1,12 @@
 class Menu:
 
     def mostrar_menu(self):
-        print("[MENU DE SERVIÇOS]")
+        print("[HOSPITAL SENAI BETIM PROJETO]")
+        print("")
         print("1. Consulta")
         print("2. Exame")
         print("3. Emergência")
-
+        print("")
         opcao = input("Escolha a opção: ")
 
         if opcao == "1":
