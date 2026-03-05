@@ -1,8 +1,4 @@
 class Triagem:
-    """
-    Responsável por tratar o tipo de atendimento escolhido.
-    Se for 'Emergência', deve ignorar senhas/fila e exibir alerta.
-    """
 
     ALERTA_EMERGENCIA = "ENCAMINHAR IMEDIATAMENTE AO BOX MÉDICO"
 
